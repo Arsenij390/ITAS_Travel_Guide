@@ -24,11 +24,11 @@ public class mouseControll : MonoBehaviour
         float mouseX = Input.GetAxis("Mouse X");
         float mouseY = Input.GetAxis("Mouse Y");
 
-        //горизонтальная плоскость
+        //ГЈГ®Г°ГЁГ§Г®Г­ГІГ Г«ГјГ­Г Гї ГЇГ«Г®Г±ГЄГ®Г±ГІГј
 
         transform.parent.Rotate(Vector3.up * mouseX * sens);
 
-        //Вертикалка
+        //Г‚ГҐГ°ГІГЁГЄГ Г«ГЄГ 
 
         rotationX -= mouseY * sens;
         rotationX = Mathf.Clamp(rotationX, -maxYAngle, maxYAngle);
