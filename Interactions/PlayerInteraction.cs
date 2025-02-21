@@ -15,15 +15,13 @@ public class PlayerInteraction : MonoBehaviour
     public Image cursorImage;
     public TextMeshProUGUI interactionText;
 
-    //flashlight
-
     public GameObject flashLight;
 
     public void Start()
     {
         cursorImage.gameObject.SetActive(false);
     }
-    // Update is called once per frame
+    
     void Update()
     {
          interactionRay();
@@ -31,7 +29,7 @@ public class PlayerInteraction : MonoBehaviour
 
     void interactionRay()
     {
-        // пуск "луча" из центра экрана 
+        // Луч выходит из центра камеры
         Ray ray = mainCam.ViewportPointToRay(Vector3.one / 2f);
         Vector3 mouse = Input.mousePosition;
         mouse.z = 10f;
