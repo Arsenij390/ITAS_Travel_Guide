@@ -7,6 +7,7 @@ using Unity.VisualScripting;
 
 public interface INstruct
 {
+    // Тест для разделения объектов, на которые смотрит камера
     string getSign();
     bool Button();
 }
