@@ -7,14 +7,17 @@ public class InstructionsUI : MonoBehaviour, INstruct
 {
     public static bool sign;
     public static bool buttonOn;
-    // Start is called before the first frame update
 
     void Update()
     {
         getSign();
         Button();
     }
-    public string getSign()
+
+    //<details>
+    //<summary> Когда камера направлена на объект с тегом "NPC" - используется метод "getSign()" </summary>
+    //<details>
+    public string getSign() 
     {
         if (sign == false)
         {
@@ -25,16 +28,4 @@ public class InstructionsUI : MonoBehaviour, INstruct
             return "";
         }
     }
-    public bool Button()
-    {
-        if (buttonOn == false)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
-
 }
