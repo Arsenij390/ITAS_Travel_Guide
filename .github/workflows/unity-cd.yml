@@ -1,1 +1,22 @@
+name: Unity CD
 
+on:
+  workflow_run:
+    workflows: ["Unity CI"]  # Зависит от успешного CI
+    branches: [main]
+    types: [completed]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # Скачиваем артефакт из CI
+      - uses: actions/download-artifact@v3
+        with:
+          name: WebGL-Build
+      
+      # Деплой на GitHub Pages
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./WebGL-Build
