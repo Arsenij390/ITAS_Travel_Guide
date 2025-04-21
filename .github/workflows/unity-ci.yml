@@ -31,7 +31,7 @@ jobs:
         uses: game-ci/unity-builder@v4
         with:
           targetPlatform: WebGL
-          projectPath: .
+          projectPath: ThisProject
 
       # Шаг 4: Запуск тестов (если есть)
      # Configure test runner
