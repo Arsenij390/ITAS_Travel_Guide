@@ -28,21 +28,21 @@ jobs:
       
       # Шаг 3: Сборка проекта
       - name: Build Unity Project (WebGL)
-        uses: game-ci/unity-builder@v2
+        uses: game-ci/unity-builder@v4
         with:
           targetPlatform: WebGL
           projectPath: .
 
       # Шаг 4: Запуск тестов (если есть)
      # Configure test runner
-      - uses: game-ci/unity-test-runner@v2
+      - uses: game-ci/unity-test-runner@v4
         id: testRunner
         with:
           projectPath: ThisProject
           testMode: playmode
 
       # Upload artifact
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v4
         with:
           name: Test results (play mode)
           path: ${{ steps.testRunner.outputs.artifactsPath }}
