@@ -15,7 +15,7 @@ C:/Users/dd233/Desktop/Files/learning/Disser/ITAS_Travel_Guide
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50470
+50886
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/dd233/Desktop/Files/learning/Disser/ITAS_Travel_Guide
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8848]  Target information:
+Player connection [20708]  Target information:
 
-Player connection [8848]  * "[IP] 192.168.2.2 [Port] 0 [Flags] 2 [Guid] 355215054 [EditorId] 355215054 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7A4GSKL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [20708]  * "[IP] 192.168.2.2 [Port] 0 [Flags] 2 [Guid] 2575103100 [EditorId] 2575103100 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7A4GSKL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8848] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8848] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20708] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20708] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.33f1 (433b0a79340b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Resources/UnitySubsystems
@@ -91,47 +91,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.005493 seconds.
-- Loaded All Assemblies, in  0.478 seconds
+Registered in 0.006018 seconds.
+- Loaded All Assemblies, in  0.540 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 296 ms
+Android Extension - Scanning For ADB Devices 408 ms
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.765 seconds
-Domain Reload Profiling: 1240ms
-	BeginReloadAssembly (151ms)
+- Finished resetting the current domain, in  0.973 seconds
+Domain Reload Profiling: 1510ms
+	BeginReloadAssembly (192ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (202ms)
-		LoadAssemblies (151ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (210ms)
+		LoadAssemblies (189ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (197ms)
-			TypeCache.Refresh (195ms)
-				TypeCache.ScanAssembly (179ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (203ms)
+				TypeCache.ScanAssembly (186ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (765ms)
+	FinalizeReload (974ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (707ms)
+		SetupLoadedEditorAssemblies (911ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (407ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (150ms)
+			InitializePlatformSupportModulesInManaged (600ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (146ms)
 			ProcessInitializeOnLoadMethodAttributes (72ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -141,896 +141,156 @@ Domain Reload Profiling: 1240ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.089 seconds
+- Loaded All Assemblies, in  1.028 seconds
 Script 'Animation' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.131 seconds
-Domain Reload Profiling: 2215ms
-	BeginReloadAssembly (230ms)
+- Finished resetting the current domain, in  1.111 seconds
+Domain Reload Profiling: 2135ms
+	BeginReloadAssembly (213ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (42ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (41ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (748ms)
-		LoadAssemblies (531ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (707ms)
+		LoadAssemblies (493ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (350ms)
-			TypeCache.Refresh (228ms)
-				TypeCache.ScanAssembly (205ms)
+		AnalyzeDomain (338ms)
+			TypeCache.Refresh (216ms)
+				TypeCache.ScanAssembly (194ms)
 			BuildScriptInfoCaches (104ms)
 			ResolveRequiredComponents (14ms)
-	FinalizeReload (1132ms)
+	FinalizeReload (1112ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (920ms)
+		SetupLoadedEditorAssemblies (898ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (208ms)
-			ProcessInitializeOnLoadAttributes (564ms)
-			ProcessInitializeOnLoadMethodAttributes (116ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (193ms)
+			ProcessInitializeOnLoadAttributes (562ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 215 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6027 unused Assets / (6.8 MB). Loaded Objects now: 6693.
-Memory consumption went from 167.0 MB to 160.1 MB.
-Total: 11.195400 ms (FindLiveObjects: 0.848900 ms CreateObjectMapping: 0.545800 ms MarkObjects: 5.855600 ms  DeleteObjects: 3.943600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2475.136272 seconds.
-  path: Assets/Scenes2/Tests
-  artifactKey: Guid(7d85f8367c15a6143a18caebcb77e7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes2/Tests using Guid(7d85f8367c15a6143a18caebcb77e7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e9cda200cc3db7208c37c36954a9aa8') in 0.006274 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.202112 seconds.
-  path: Assets/Scenes/TestsWithSampleScene
-  artifactKey: Guid(46bdfe7d1e4becf42a6a47e33b7d4069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestsWithSampleScene using Guid(46bdfe7d1e4becf42a6a47e33b7d4069) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2bbfe8d9cdbff8f9c424ab49ce82dfd') in 0.0006449 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.545770 seconds.
-  path: Assets/Scenes/TestsWithSampleScene/TestsWithSampleScene.asmdef
-  artifactKey: Guid(bc52c0e84a5e0c24fafacf2a8eb21eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestsWithSampleScene/TestsWithSampleScene.asmdef using Guid(bc52c0e84a5e0c24fafacf2a8eb21eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32f95e46e205e9b49c6e30180535c874') in 0.0044328 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+Unloading 6027 unused Assets / (6.5 MB). Loaded Objects now: 6693.
+Memory consumption went from 167.0 MB to 160.4 MB.
+Total: 10.848600 ms (FindLiveObjects: 0.763900 ms CreateObjectMapping: 0.453900 ms MarkObjects: 5.931900 ms  DeleteObjects: 3.697400 ms)
 
 ========================================================================
 Received Prepare
-Script 'Animation' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6019 unused Assets / (6.8 MB). Loaded Objects now: 6696.
-Memory consumption went from 138.2 MB to 131.4 MB.
-Total: 23.754200 ms (FindLiveObjects: 0.852100 ms CreateObjectMapping: 0.456000 ms MarkObjects: 18.687900 ms  DeleteObjects: 3.756800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 7.556299 seconds.
-  path: Assets/Scenes/TestsWithSampleScene/NewTestScript.cs
-  artifactKey: Guid(ca54f62407beb1e4f81a9e7431db77d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestsWithSampleScene/NewTestScript.cs using Guid(ca54f62407beb1e4f81a9e7431db77d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1cccbc0d266e25c3d615f09a195a7d4') in 0.0031116 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.630081 seconds.
-  path: Assets/Tests/NewTestScript.cs
-  artifactKey: Guid(0ead646c509b4fe49a24b1073d6110e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tests/NewTestScript.cs using Guid(0ead646c509b4fe49a24b1073d6110e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '245b50ee72c81b39c391502f65b9cc0d') in 0.0008485 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.351681 seconds.
-  path: Assets/Tests/SceneLoader.cs
-  artifactKey: Guid(0df6783964766d34abc9ee27537e71bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tests/SceneLoader.cs using Guid(0df6783964766d34abc9ee27537e71bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9997e42fbcd41aadf8732a7949aa05ea') in 0.0007849 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Script 'Animation' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6020 unused Assets / (6.8 MB). Loaded Objects now: 6697.
-Memory consumption went from 138.2 MB to 131.4 MB.
-Total: 11.373500 ms (FindLiveObjects: 0.765100 ms CreateObjectMapping: 0.467400 ms MarkObjects: 6.520000 ms  DeleteObjects: 3.619500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Script 'Animation' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6021 unused Assets / (7.0 MB). Loaded Objects now: 6698.
-Memory consumption went from 138.2 MB to 131.2 MB.
-Total: 11.326200 ms (FindLiveObjects: 0.818900 ms CreateObjectMapping: 0.590900 ms MarkObjects: 5.811100 ms  DeleteObjects: 4.103900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.405060 seconds.
-  path: Assets/Scenes/TestsWithSampleScene/NewTestScript1.cs
-  artifactKey: Guid(707838c207b73164ebd05e55cc4d6aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestsWithSampleScene/NewTestScript1.cs using Guid(707838c207b73164ebd05e55cc4d6aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '166f410bddd40b7f66a97c428d3b9731') in 0.0058655 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.861819 seconds.
-  path: Assets/Scenes/TestsWithSampleScene/SceneLoader.cs
-  artifactKey: Guid(6a51c7a04d6e48a47b21bef7f3c336d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestsWithSampleScene/SceneLoader.cs using Guid(6a51c7a04d6e48a47b21bef7f3c336d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acbb8815443b42297265c70b13bfc790') in 0.0006717 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Script 'Animation' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6020 unused Assets / (6.8 MB). Loaded Objects now: 6697.
-Memory consumption went from 138.2 MB to 131.3 MB.
-Total: 16.826800 ms (FindLiveObjects: 0.785600 ms CreateObjectMapping: 0.441700 ms MarkObjects: 11.532400 ms  DeleteObjects: 4.065200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Script 'Animation' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6021 unused Assets / (6.9 MB). Loaded Objects now: 6698.
-Memory consumption went from 138.2 MB to 131.3 MB.
-Total: 12.454000 ms (FindLiveObjects: 0.799900 ms CreateObjectMapping: 0.672500 ms MarkObjects: 6.834500 ms  DeleteObjects: 4.145100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Script 'Animation' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6022 unused Assets / (6.8 MB). Loaded Objects now: 6699.
-Memory consumption went from 138.2 MB to 131.4 MB.
-Total: 16.655300 ms (FindLiveObjects: 0.790000 ms CreateObjectMapping: 0.504900 ms MarkObjects: 11.512000 ms  DeleteObjects: 3.846700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Script 'Animation' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6022 unused Assets / (6.8 MB). Loaded Objects now: 6699.
-Memory consumption went from 138.2 MB to 131.4 MB.
-Total: 10.580800 ms (FindLiveObjects: 0.803700 ms CreateObjectMapping: 0.435300 ms MarkObjects: 5.414700 ms  DeleteObjects: 3.925900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Script 'Animation' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6023 unused Assets / (7.0 MB). Loaded Objects now: 6700.
-Memory consumption went from 138.2 MB to 131.2 MB.
-Total: 10.804000 ms (FindLiveObjects: 0.784800 ms CreateObjectMapping: 0.449000 ms MarkObjects: 5.765900 ms  DeleteObjects: 3.802800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Script 'Animation' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6020 unused Assets / (6.7 MB). Loaded Objects now: 6697.
-Memory consumption went from 138.2 MB to 131.5 MB.
-Total: 10.070800 ms (FindLiveObjects: 0.770900 ms CreateObjectMapping: 0.444800 ms MarkObjects: 5.371000 ms  DeleteObjects: 3.482800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 405.383563 seconds.
-  path: Assets/Scenes/TestsWithSampleScene/NewTestScript1.cs
-  artifactKey: Guid(707838c207b73164ebd05e55cc4d6aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestsWithSampleScene/NewTestScript1.cs using Guid(707838c207b73164ebd05e55cc4d6aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e22a7c2c6722e15448e191f84af2fb51') in 0.0185357 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Script 'Animation' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6018 unused Assets / (6.9 MB). Loaded Objects now: 6695.
-Memory consumption went from 138.2 MB to 131.3 MB.
-Total: 10.926100 ms (FindLiveObjects: 0.936100 ms CreateObjectMapping: 0.557300 ms MarkObjects: 5.525800 ms  DeleteObjects: 3.905500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.005 seconds
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
+- Loaded All Assemblies, in  1.012 seconds
 Script 'Animation' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.066 seconds
-Domain Reload Profiling: 2069ms
-	BeginReloadAssembly (253ms)
+- Finished resetting the current domain, in  1.057 seconds
+Domain Reload Profiling: 2067ms
+	BeginReloadAssembly (280ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (65ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (661ms)
-		LoadAssemblies (503ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (285ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (248ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1067ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (812ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (211ms)
-			ProcessInitializeOnLoadAttributes (506ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6025 unused Assets / (7.0 MB). Loaded Objects now: 6709.
-Memory consumption went from 148.0 MB to 141.0 MB.
-Total: 10.679500 ms (FindLiveObjects: 0.806500 ms CreateObjectMapping: 0.556800 ms MarkObjects: 5.181800 ms  DeleteObjects: 4.132800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.967 seconds
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Script 'Animation' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.069 seconds
-Domain Reload Profiling: 2033ms
-	BeginReloadAssembly (249ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (625ms)
-		LoadAssemblies (503ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (254ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (224ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1069ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (835ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (199ms)
-			ProcessInitializeOnLoadAttributes (541ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6025 unused Assets / (6.9 MB). Loaded Objects now: 6711.
-Memory consumption went from 146.5 MB to 139.7 MB.
-Total: 11.666600 ms (FindLiveObjects: 0.888400 ms CreateObjectMapping: 0.621100 ms MarkObjects: 6.232100 ms  DeleteObjects: 3.923700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 65.350981 seconds.
-  path: Assets/Scenes/TestsWithSampleScene/NewTestScript1.cs
-  artifactKey: Guid(707838c207b73164ebd05e55cc4d6aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestsWithSampleScene/NewTestScript1.cs using Guid(707838c207b73164ebd05e55cc4d6aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f4fdfa4f0be209ed2576e700c8e283a') in 0.0092932 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Script 'Animation' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6018 unused Assets / (6.9 MB). Loaded Objects now: 6711.
-Memory consumption went from 146.7 MB to 139.8 MB.
-Total: 11.606900 ms (FindLiveObjects: 0.860100 ms CreateObjectMapping: 0.738300 ms MarkObjects: 5.803100 ms  DeleteObjects: 4.203700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 25.396597 seconds.
-  path: Assets/Scenes/TestsWithSampleScene/NewTestScript1.cs
-  artifactKey: Guid(707838c207b73164ebd05e55cc4d6aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestsWithSampleScene/NewTestScript1.cs using Guid(707838c207b73164ebd05e55cc4d6aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '246335b2458fd56089ec991a87455206') in 0.0049899 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.973 seconds
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Script 'Animation' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.034 seconds
-Domain Reload Profiling: 2006ms
-	BeginReloadAssembly (246ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (61ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (637ms)
-		LoadAssemblies (507ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (634ms)
+		LoadAssemblies (515ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (258ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (227ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1035ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (807ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (202ms)
-			ProcessInitializeOnLoadAttributes (508ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6025 unused Assets / (7.0 MB). Loaded Objects now: 6713.
-Memory consumption went from 146.5 MB to 139.6 MB.
-Total: 11.042100 ms (FindLiveObjects: 0.770100 ms CreateObjectMapping: 0.408900 ms MarkObjects: 5.339300 ms  DeleteObjects: 4.522700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.996 seconds
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Script 'Animation' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.043 seconds
-Domain Reload Profiling: 2036ms
-	BeginReloadAssembly (243ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (656ms)
-		LoadAssemblies (531ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (249ms)
 			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (222ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1044ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (807ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (201ms)
-			ProcessInitializeOnLoadAttributes (513ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6025 unused Assets / (7.2 MB). Loaded Objects now: 6715.
-Memory consumption went from 146.5 MB to 139.3 MB.
-Total: 12.158700 ms (FindLiveObjects: 0.827600 ms CreateObjectMapping: 0.631500 ms MarkObjects: 6.227500 ms  DeleteObjects: 4.470200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 88.066331 seconds.
-  path: Assets/Scenes/TestsWithSampleScene/TestsWithSampleScene.asmdef
-  artifactKey: Guid(bc52c0e84a5e0c24fafacf2a8eb21eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestsWithSampleScene/TestsWithSampleScene.asmdef using Guid(bc52c0e84a5e0c24fafacf2a8eb21eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac43530647bd03b40672a82ee0694df3') in 0.0088462 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.950 seconds
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Script 'Animation' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.043 seconds
-Domain Reload Profiling: 1991ms
-	BeginReloadAssembly (243ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (61ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (612ms)
-		LoadAssemblies (489ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (247ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (218ms)
+			BuildScriptInfoCaches (230ms)
 			ResolveRequiredComponents (14ms)
-	FinalizeReload (1043ms)
+	FinalizeReload (1058ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (806ms)
+		SetupLoadedEditorAssemblies (802ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (193ms)
-			ProcessInitializeOnLoadAttributes (517ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (183ms)
+			ProcessInitializeOnLoadAttributes (522ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (15ms)
 Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6025 unused Assets / (6.8 MB). Loaded Objects now: 6717.
-Memory consumption went from 146.5 MB to 139.6 MB.
-Total: 11.193300 ms (FindLiveObjects: 0.901600 ms CreateObjectMapping: 0.597200 ms MarkObjects: 5.747400 ms  DeleteObjects: 3.945700 ms)
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6025 unused Assets / (7.0 MB). Loaded Objects now: 6707.
+Memory consumption went from 147.5 MB to 140.5 MB.
+Total: 10.704800 ms (FindLiveObjects: 0.811100 ms CreateObjectMapping: 0.409300 ms MarkObjects: 5.490000 ms  DeleteObjects: 3.992900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.971 seconds
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
+- Loaded All Assemblies, in  0.952 seconds
 Script 'Animation' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.044 seconds
-Domain Reload Profiling: 2012ms
-	BeginReloadAssembly (245ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (630ms)
-		LoadAssemblies (506ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (251ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (222ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1044ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (814ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (206ms)
-			ProcessInitializeOnLoadAttributes (513ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6025 unused Assets / (6.9 MB). Loaded Objects now: 6719.
-Memory consumption went from 146.5 MB to 139.6 MB.
-Total: 11.435500 ms (FindLiveObjects: 0.778100 ms CreateObjectMapping: 0.402600 ms MarkObjects: 6.216300 ms  DeleteObjects: 4.036700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 82.670651 seconds.
-  path: Assets/Scenes/TestsWithSampleScene/TestsWithSampleScene.asmdef
-  artifactKey: Guid(bc52c0e84a5e0c24fafacf2a8eb21eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestsWithSampleScene/TestsWithSampleScene.asmdef using Guid(bc52c0e84a5e0c24fafacf2a8eb21eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14bb55cb97739caae13fa9678600e5b6') in 0.0066459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.983 seconds
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Script 'Animation' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.048 seconds
-Domain Reload Profiling: 2029ms
-	BeginReloadAssembly (252ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (66ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (635ms)
-		LoadAssemblies (504ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (258ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (229ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1049ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (821ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (210ms)
-			ProcessInitializeOnLoadAttributes (515ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6025 unused Assets / (6.8 MB). Loaded Objects now: 6721.
-Memory consumption went from 146.6 MB to 139.8 MB.
-Total: 10.832800 ms (FindLiveObjects: 0.809600 ms CreateObjectMapping: 0.469600 ms MarkObjects: 5.616600 ms  DeleteObjects: 3.935800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 22.527296 seconds.
-  path: Assets/Scenes/TestsWithSampleScene/TestsWithSampleScene.asmdef
-  artifactKey: Guid(bc52c0e84a5e0c24fafacf2a8eb21eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestsWithSampleScene/TestsWithSampleScene.asmdef using Guid(bc52c0e84a5e0c24fafacf2a8eb21eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5a706aa938fdff8097d6af0151e8bc1') in 0.0038966 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.967 seconds
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Script 'Animation' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.040 seconds
-Domain Reload Profiling: 2005ms
-	BeginReloadAssembly (240ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (634ms)
-		LoadAssemblies (498ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (258ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (228ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1041ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (812ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (214ms)
-			ProcessInitializeOnLoadAttributes (501ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6025 unused Assets / (6.7 MB). Loaded Objects now: 6723.
-Memory consumption went from 146.6 MB to 139.9 MB.
-Total: 10.074800 ms (FindLiveObjects: 0.779300 ms CreateObjectMapping: 0.450400 ms MarkObjects: 5.340100 ms  DeleteObjects: 3.503100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.987 seconds
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Script 'Animation' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.051 seconds
-Domain Reload Profiling: 2036ms
+- Finished resetting the current domain, in  1.038 seconds
+Domain Reload Profiling: 1988ms
 	BeginReloadAssembly (241ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (61ms)
+		CreateAndSetChildDomain (63ms)
 	RebuildCommonClasses (39ms)
 	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (652ms)
-		LoadAssemblies (512ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (621ms)
+		LoadAssemblies (492ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (263ms)
-			TypeCache.Refresh (15ms)
+		AnalyzeDomain (250ms)
+			TypeCache.Refresh (12ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (230ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1052ms)
+			BuildScriptInfoCaches (221ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1038ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (816ms)
+		SetupLoadedEditorAssemblies (803ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (212ms)
-			ProcessInitializeOnLoadAttributes (508ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6025 unused Assets / (6.9 MB). Loaded Objects now: 6725.
-Memory consumption went from 146.6 MB to 139.7 MB.
-Total: 10.520700 ms (FindLiveObjects: 0.789000 ms CreateObjectMapping: 0.546300 ms MarkObjects: 5.393400 ms  DeleteObjects: 3.790800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.972 seconds
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Script 'Animation' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Assembly with name 'Tests' already exists (Assets/Tests/Tests.asmdef)
-Assembly with name 'Tests' already exists (Assets/Scenes2/Tests/Tests.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.038 seconds
-Domain Reload Profiling: 2008ms
-	BeginReloadAssembly (250ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (61ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (630ms)
-		LoadAssemblies (509ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (248ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (219ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1039ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (802ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
+			InitializePlatformSupportModulesInManaged (13ms)
 			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (206ms)
-			ProcessInitializeOnLoadAttributes (502ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
+			BeforeProcessingInitializeOnLoad (202ms)
+			ProcessInitializeOnLoadAttributes (507ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6025 unused Assets / (6.9 MB). Loaded Objects now: 6727.
-Memory consumption went from 146.6 MB to 139.7 MB.
-Total: 10.730300 ms (FindLiveObjects: 0.765800 ms CreateObjectMapping: 0.391500 ms MarkObjects: 5.613600 ms  DeleteObjects: 3.958200 ms)
+Unloading 6025 unused Assets / (6.8 MB). Loaded Objects now: 6709.
+Memory consumption went from 147.9 MB to 141.1 MB.
+Total: 11.104400 ms (FindLiveObjects: 0.780500 ms CreateObjectMapping: 0.440200 ms MarkObjects: 6.140800 ms  DeleteObjects: 3.741300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
