@@ -34,7 +34,15 @@ jobs:
           projectPath: .
 
       # Шаг 4: Запуск тестов (если есть)
-      - name: Run Unit Tests
-        uses: game-ci/unity-test-runner@v2
+     # Configure test runner
+      - uses: game-ci/unity-test-runner@v2
+        id: testRunner
         with:
-          projectPath: .
+          projectPath: ThisProject
+          testMode: playmode
+
+      # Upload artifact
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Test results (play mode)
+          path: ${{ steps.testRunner.outputs.artifactsPath }}
