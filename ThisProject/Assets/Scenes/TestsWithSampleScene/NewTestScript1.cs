@@ -16,7 +16,7 @@ public class NewTestScript
 
         // 2. Загружаем сцену
         var sceneLoader = new SceneLoader();
-        bool isLoaded = sceneLoader.Load("SampleScene1");
+        bool isLoaded = sceneLoader.Load("SampleScene");
         Debug.Log(isLoaded);
         // 3. Проверяем результат
         Assert.IsTrue(isLoaded, "Сцена 'SampleScene' не загрузилась!");
