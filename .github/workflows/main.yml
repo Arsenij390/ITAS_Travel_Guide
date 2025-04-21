@@ -46,3 +46,17 @@ jobs:
         with:
           name: Coverage results for ${{ matrix.testMode }}
           path: ${{ steps.tests.outputs.coveragePath }}
+
+  deploy:
+      needs: testAllModes  # Ждем успешного CI
+      runs-on: ubuntu-latest
+      permissions:
+        contents: write  # Для пуша на GitHub Pages
+      steps:
+        - uses: actions/download-artifact@v4
+          with:
+            name: WebGL-Build
+        - uses: peaceiris/actions-gh-pages@v4
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: ./WebGL-Build
