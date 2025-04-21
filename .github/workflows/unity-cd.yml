@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Скачиваем артефакт из CI
-      - uses: actions/download-artifact@v3
-        with:
-          name: WebGL-Build
+      #- uses: actions/download-artifact@v3
+      #  with:
+      #    name: WebGL-Build
       
       # Деплой на GitHub Pages
       - uses: peaceiris/actions-gh-pages@v3
