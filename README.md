@@ -54,7 +54,7 @@ Workflow - файл `.github/Workflow/main.yml`
   - ProjectSettings/ # Настройки проекта
   - Packages/ # Список пакетов
     
-### ** Какие папки не нужны (Настрока .gitignore)**
+### ** Какие папки не нужны (Настройка .gitignore)**
 ```
 /Library
 /obj
