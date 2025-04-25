@@ -9,6 +9,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
+        targetPlatform:
+          - StandaloneWindows64 # Build a Windows 64-bit standalone.
         projectPath:
           - ThisProject
         testMode:
@@ -30,6 +32,7 @@ jobs:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
+          targetPlatform: ${{ matrix.targetPlatform }}
           projectPath: ${{ matrix.projectPath }}
           testMode: ${{ matrix.testMode }}
           artifactsPath: ${{ matrix.testMode }}-artifacts
@@ -39,7 +42,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: build_ITAS
+          name: build-${{ matrix.targetPlatform }}
           path: projectITAS
 
   deploy:
@@ -50,7 +53,7 @@ jobs:
       steps:
         - uses: actions/download-artifact@v4
           with:
-            name: build_ITAS
+            name: build-${{ matrix.targetPlatform }}
         - uses: peaceiris/actions-gh-pages@v4
           with:
             github_token: ${{ secrets.GITHUB_TOKEN }}
