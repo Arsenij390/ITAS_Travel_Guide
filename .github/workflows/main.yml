@@ -83,9 +83,7 @@ jobs:
       strategy:
         matrix:
           targetPlatform:
-            - StandaloneWindows # Build a Windows standalone.
             - StandaloneWindows64 # Build a Windows 64-bit standalone.
-            - WebGL # WebGL.
       permissions:
         contents: write  # Для пуша на GitHub Pages
       steps:
