@@ -9,8 +9,6 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        targetPlatform:
-          - StandaloneWindows64 # Build a Windows 64-bit standalone.
         projectPath:
           - dev
         testMode:
@@ -42,20 +40,61 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: always()
         with:
+          name: build-${{ matrix.testMode }}
+          path: build/${{ matrix.testMode }}
+          
+  buildForWindows:
+    needs: testAllModes
+    name: Build for ${{ matrix.targetPlatform }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        targetPlatform:
+          - StandaloneWindows # Build a Windows standalone.
+          - StandaloneWindows64 # Build a Windows 64-bit standalone.
+          - WebGL # WebGL.
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+      - uses: actions/cache@v3
+        with:
+          path: Library
+          key: Library-${{ matrix.targetPlatform }}
+          restore-keys: Library-
+      - if: matrix.targetPlatform == 'Android'
+        uses: jlumbroso/free-disk-space@v1.3.1
+      - uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          targetPlatform: ${{ matrix.targetPlatform }}
+      - uses: actions/upload-artifact@v3
+        with:
           name: build-${{ matrix.targetPlatform }}
           path: build/${{ matrix.targetPlatform }}
-
+    
   deploy:
-      needs: testAllModes  # Ждем успешного CI
+      needs: [buildForWindows]
       runs-on: ubuntu-latest
+      strategy:
+        matrix:
+          targetPlatform:
+            - StandaloneWindows # Build a Windows standalone.
+            - StandaloneWindows64 # Build a Windows 64-bit standalone.
+            - WebGL # WebGL.
       permissions:
         contents: write  # Для пуша на GitHub Pages
       steps:
         - uses: actions/download-artifact@v4
           with:
-            name: build-StandaloneWindows64
-            path: build/StandaloneWindows64
+            name: build-${{ matrix.targetPlatform }}
+            path: build/${{ matrix.targetPlatform }}
         - uses: peaceiris/actions-gh-pages@v4
           with:
             github_token: ${{ secrets.GITHUB_TOKEN }}
-            publish_dir: build/StandaloneWindows64
+            publish_dir: build/${{ matrix.targetPlatform }}
